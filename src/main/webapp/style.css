@@ -1,0 +1,61 @@
+body {
+    background-color: #fff8e7; /* Цвет фона веб-страницы */
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10 20;
+    text-align: center;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    outline: none;
+}
+
+.green {
+    color: #e8f0de;
+    border: solid 1px #538312;
+    background: #64991e;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+    font-size: 20;
+}
+
+.green:disabled {
+    background: grey;
+}
+
+.rosy {
+    color: #801d1a;
+    border: solid 1px #b73948;
+    background: #da5867;
+    font-size: 20;
+}
+
+.rosy:active {
+    background: #fe4443;
+}
+
+.rosy:disabled {
+    background: grey;
+}
+
+.blue {
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top, #00adee, #0078a5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+    font-size: 12;
+}
+
+.white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+}
+
+.textAreaBack {
+    background-image: url(http://b2b.cbsimg.net/blogs/03052013figure-d.gif);
+    font-style: italic;
+    font: Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
