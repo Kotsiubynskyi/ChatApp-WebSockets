@@ -9,4 +9,4 @@ This app was tested on:
 	3) JBoss EAP 6.2 - Fail
 
 To package app into war-file use "mvn package". 
-After deploying app wil be accessible by http://localhost:8080/ChatApp/
+After deploying app can be accessible by http://localhost:8080/ChatApp/
